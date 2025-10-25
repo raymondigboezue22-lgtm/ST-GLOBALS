@@ -1,0 +1,382 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html,
+body{
+    /* background-color: rgb(180, 182, 180); */
+    font-size: 16px;
+    /* line-height: 1.45; */
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+.navbar{
+    background-color:#120136;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 8%;
+}
+
+#main-header{
+    /* background-color: white; */
+    background:linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(../images//key.webp);
+    padding: 40px 0;
+    text-align: center;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #f4f3f6;
+}
+
+.menu{
+    text-align: center;
+    padding: 15px 0;
+}
+
+.menu li{
+    display: inline-block;
+    margin-left: 15px;
+   padding: 10px 24px;
+    border: 1px solid whitesmoke;
+}
+
+
+.menu li a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #f4f3f6;
+    letter-spacing: 1px;
+}
+
+.logo{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+
+.main-text-box h1{
+    font-size: 3.5rem;
+    text-transform: uppercase;
+}
+
+.main-text-box p{
+    font-size: 1.8rem;
+}
+
+.button{
+    display: inline-block;
+    padding: 10px 12px;
+    color: #f4f3f6;
+    border: 1px solid #f4f3f6;
+    width: 150px;
+    margin-top: 20px;
+}
+
+.faculty{
+    padding: 100px 0;
+    background-color: white;
+}
+
+.section-title{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.section-title h2{
+    font-size: 2.5rem;
+    text-transform: uppercase;
+}
+
+.section-title::after{
+    display: block;
+    content: "";
+    width: 100px;
+    height: 4px;
+    background-color: tomato;
+    margin: 15px auto;
+}
+
+.section-title p{
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+.our-faculty{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    gap: 30px;
+}
+
+.class-item{
+    margin-left: 15px;
+    border: 1px solid #ddd;
+    box-shadow: 0 6px 15px #ddd;
+}
+
+.class-item img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.text-box{
+    padding: 20px;
+}
+
+.text-box h3{
+    font-size: 1.5rem;
+    color: #120136;
+}
+
+.text-box p{
+    padding: 15px 0;
+}
+
+.learn-more-button{
+    display: inline-block;
+    width: 150px;
+    border: 1px solid #120136;
+    background-color: #120136;
+    color: #fff;
+    text-align: center;
+    padding: 9px 12px;
+    font-weight: 400;
+    font-size: 1.3rem;
+    border-radius: 5px;
+    transition: All .3s ease-in;
+}
+
+.learn-more-button:hover{
+    border: 1px solid #120136;
+    background-color: #fff;
+    color: #120136;
+}
+
+footer{
+    background-color: #120136;
+    color: whitesmoke;
+    padding: 50px 0;
+    text-align: center;
+}
+
+footer a{
+    color: #ddd;
+}
+
+/* sign-up-login */
+.sign-up-login a{
+    color: #ddd;
+    padding: 10px 15px;
+    display: inline-block;
+}
+
+.sign-up-login{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.sign-up-login li:first-child{
+    border: 1px solid #ddd;
+    background-color: #ddd;
+}
+
+.sign-up-login li:first-child a{
+    color: #120136;
+    font-weight: 800;
+    border-radius: 5px;
+}
+
+.sign-up-login li:nth-last-child(1){
+    border: 1px solid aqua;
+    border-radius: 6px;
+}
+
+.sign-up-login li:nth-last-child(1) a{
+    color: aqua;
+    
+}
+
+.sign-up-login li:first-child:hover{
+    background-color: aqua;
+    border: 1px solid aqua;
+}
+
+.sign-up-login li:first-child:hover a{
+    color: #120136
+}
+
+.sign-up-login li:nth-last-child(1):hover{
+    background-color: aqua;
+    
+}
+
+.sign-up-login li:nth-last-child(1):hover a{
+    color: #120136;
+}
+
+/* Sign up */
+.grid-wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.left-box{
+    height: 100vh;
+    /* background-color: red; */
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),  url(../images/commercial.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ddd;
+    
+}
+
+.sign-up-text p{
+    font-size: 20px;
+}
+
+.sign-up-text h2{
+    font-size: 45px;
+}
+
+.right-box{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    justify-content: center;
+}
+
+.form-box{
+    width: 500px;
+    background-color: #ddd;
+    padding: 40px 20px;
+    border-radius: 10px;
+}
+
+.form-box h2{
+    margin: 15px 0;
+}
+
+.form-box p{
+    margin-bottom: 15px;
+}
+
+.form-group{
+    margin-bottom: 15px;
+}
+
+.form-control{
+    width: 90%;
+    padding: 10px;
+    border-radius: 8px;
+    display: inline-block;
+    margin-top: 8px;
+    border: 1px solid #ddd;
+}
+
+.form-group label{
+    font-size: 17px;
+}
+
+.form-box button{
+    display: inline-block;
+    /* width: 100px; */
+    padding: 10px 24px;
+    margin-bottom: 15px;
+    background-color: #120136;
+    border: 1px solid #120136;
+    color: #ddd;
+    border-radius: 8px;
+}
+
+.form-box a{
+    color: #120136;
+    text-decoration: underline
+}
+
+.sign-img-box{
+    margin-left: 400px;
+    /* text-align: right; */
+}
+
+.festures-section{
+    padding: 100px 0;
+    background-color: #f5f5f5;
+}
+
+.festures{
+    width: 80%;
+    margin: auto;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 30px;
+}
+
+.item-box{
+    background-color: rgba(255, 255, 255, 1);
+     padding-top: 20px;
+     border-radius: 5px;
+     text-align: center;
+     /* background-image: url(../images/commercial.jpg); */
+}
+
+.icon-box{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 1px solid #120136;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.icon-box i{
+    font-size: 25px;
+    color: #120136;
+}
+
+.text-box h3{
+    font-size: 20px;
+}
+
+.festures h2{
+    text-align: center;
+    margin-bottom: 40px;
+}
+.img-box{
+   line-height: normal;
+    height: 150px;
+    
+}
+.img-box{
+    overflow: hidden;
+    overflow-y: visible;
+    height: 120px 120px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    object-fit: cover;
+}
+/* footer p{ */
+    /* justify-content: center space-around; */
+/* }
+ */
